@@ -3,7 +3,11 @@ body {
     padding-top: 50px;
     background-color: rgb(246, 246, 246);
 }
-
+/* Отключает кнопки сортировки. */
+.disabled-button {
+      opacity: 0.5;
+      pointer-events: none;
+ }
 /* Задаёт цвет заголовка таблицы. */
 thead {
     background-color: rgb(240, 240, 240);
