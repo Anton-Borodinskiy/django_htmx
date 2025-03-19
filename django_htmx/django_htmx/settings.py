@@ -70,7 +70,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'django_htmx.wsgi.application'
 
-
+STATIC_URL = 'static/'
+STATICFILES_DIRS = [BASE_DIR / 'static']
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
