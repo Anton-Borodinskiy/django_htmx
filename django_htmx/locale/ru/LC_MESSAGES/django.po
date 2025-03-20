@@ -89,3 +89,87 @@ msgstr "Отменить"
 #: .\django_htmx\templates\partial_create_book_form.html:23
 msgid "Add book"
 msgstr "Добавить"
+
+#: .\templates\base.html:12
+msgid "id"
+msgstr "идентификатор"
+
+#: .\templates\base.html:12
+msgid "title"
+msgstr "название"
+
+#: .\templates\base.html:12
+msgid "author"
+msgstr "автор"
+
+#: .\templates\base.html:12
+msgid "price"
+msgstr "цена"
+
+#: .\templates\base.html:13
+msgid "read"
+msgstr "прочитана"
+
+#: .\templates\base.html:13
+msgid "ascend"
+msgstr "возрастание"
+
+#: .\templates\base.html:13
+msgid "descend"
+msgstr "убывание"
+
+#: .\templates\base.html:51
+msgid "id-ascend"
+msgstr "идентификатор-возрастание"
+
+#: .\templates\base.html:57
+msgid "id-descend"
+msgstr "идентификатор-убывание"
+
+#: .\templates\base.html:70
+msgid "title-ascend"
+msgstr "название-возрастание"
+
+#: .\templates\base.html:76
+msgid "title-descend"
+msgstr "название-убывание"
+
+#: .\templates\base.html:89
+msgid "author-ascend"
+msgstr "автор-возрастание"
+
+#: .\templates\base.html:95
+msgid "author-descend"
+msgstr "автор-убывание"
+
+#: .\templates\base.html:108
+msgid "price-ascend"
+msgstr "цена-возрастание"
+
+#: .\templates\base.html:114
+msgid "price-descend"
+msgstr "цена-убывание"
+
+#: .\templates\base.html:127
+msgid "read-descend"
+msgstr "прочитана-убывание"
+
+#: .\templates\base.html:133
+msgid "read-ascend"
+msgstr "прочитана-возрастание"
+
+#: .\templates\base.html:177
+msgid "create_book"
+msgstr "создать_книгу"
+
+#: .\templates\base.html:179
+msgid "update_book_details"
+msgstr "обновить_детали_книги"
+
+#: .\templates\base.html:185
+msgid "book_detail"
+msgstr "детали_книги"
+
+#: .\templates\base.html:187
+msgid "book_list_sort"
+msgstr "сортировка_списка_книг"

@@ -6,6 +6,7 @@ from .models import Book
 from .forms import BookCreateForm
 from .forms import BookCreateForm, BookEditForm
 
+from django.utils.translation import gettext_lazy as _
 
 def update_book_details(request, pk):
     book = Book.objects.get(pk=pk)
@@ -43,11 +44,21 @@ def update_book_status(request, pk):
 
 @require_http_methods(['GET'])
 def book_list_sort(request, filter, direction):
-    if direction == 'descend':
-        filter = '-' + filter
-    book_list = Book.objects.order_by(filter)
-    return render(request, 'partial_book_list.html', {'book_list': book_list})
+    filter_dict = {_('id'): 'pk',
+                   _('title'): 'title',
+                   _('author'): 'author',
+                   _('price'): 'price',
+                   _('read'): 'read'}
 
+    if filter in filter_dict:
+        if direction == _('ascend'):
+            book_list = Book.objects.order_by(filter_dict[filter])
+        else:
+            book_list = Book.objects.order_by('-' + filter_dict[filter])
+    else:
+        book_list = Book.objects.all()
+
+    return render(request, 'partial_book_list.html', {'book_list': book_list})
 @require_http_methods(['POST'])
 def create_book(request):
     form = BookCreateForm(request.POST)
