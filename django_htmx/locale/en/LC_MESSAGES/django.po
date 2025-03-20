@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-20 21:51+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\django_htmx\django_htmx\settings.py:58
+msgid "English"
+msgstr ""
+
+#: .\django_htmx\django_htmx\settings.py:59
+msgid "Russian"
+msgstr ""
+
+#: .\django_htmx\templates\base.html:7
+msgid "Books"
+msgstr ""
+
+#: .\django_htmx\templates\base.html:31
+msgid "No."
+msgstr ""
+
+#: .\django_htmx\templates\base.html:50
+msgid "Title"
+msgstr ""
+
+#: .\django_htmx\templates\base.html:69
+msgid "Author"
+msgstr ""
+
+#: .\django_htmx\templates\base.html:88
+msgid "Price ($)"
+msgstr ""
+
+#: .\django_htmx\templates\base.html:107
+msgid "Status"
+msgstr ""
+
+#: .\django_htmx\templates\base.html:126
+msgid "Actions"
+msgstr ""
+
+#: .\django_htmx\templates\partial_book_detail.html:30
+#: .\django_htmx\templates\partial_book_update_form.html:27
+msgid "Read"
+msgstr ""
+
+#: .\django_htmx\templates\partial_book_detail.html:30
+#: .\django_htmx\templates\partial_book_update_form.html:27
+msgid "Unread"
+msgstr ""
+
+#: .\django_htmx\templates\partial_book_detail.html:41
+msgid "Edit"
+msgstr ""
+
+#: .\django_htmx\templates\partial_book_detail.html:49
+msgid "Are you sure you wish to delete this book?"
+msgstr ""
+
+#: .\django_htmx\templates\partial_book_detail.html:50
+msgid "Delete"
+msgstr ""
+
+#: .\django_htmx\templates\partial_book_update_form.html:40
+msgid "Save"
+msgstr ""
+
+#: .\django_htmx\templates\partial_book_update_form.html:47
+msgid "Cancel"
+msgstr ""
+
+#: .\django_htmx\templates\partial_create_book_form.html:23
+msgid "Add book"
+msgstr ""

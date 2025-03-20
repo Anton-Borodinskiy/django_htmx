@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-20 21:51+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\django_htmx\django_htmx\settings.py:58
+msgid "English"
+msgstr "Английский"
+
+#: .\django_htmx\django_htmx\settings.py:59
+msgid "Russian"
+msgstr "Русский"
+
+#: .\django_htmx\templates\base.html:7
+msgid "Books"
+msgstr "Книги"
+
+#: .\django_htmx\templates\base.html:31
+msgid "No."
+msgstr "Номер"
+
+#: .\django_htmx\templates\base.html:50
+msgid "Title"
+msgstr "Название"
+
+#: .\django_htmx\templates\base.html:69
+msgid "Author"
+msgstr "Автор"
+
+#: .\django_htmx\templates\base.html:88
+msgid "Price ($)"
+msgstr "Цена (₽)"
+
+#: .\django_htmx\templates\base.html:107
+msgid "Status"
+msgstr "Статус"
+
+#: .\django_htmx\templates\base.html:126
+msgid "Actions"
+msgstr "Действия"
+
+#: .\django_htmx\templates\partial_book_detail.html:30
+#: .\django_htmx\templates\partial_book_update_form.html:27
+msgid "Read"
+msgstr "Прочитана"
+
+#: .\django_htmx\templates\partial_book_detail.html:30
+#: .\django_htmx\templates\partial_book_update_form.html:27
+msgid "Unread"
+msgstr "Не прочитана"
+
+#: .\django_htmx\templates\partial_book_detail.html:41
+msgid "Edit"
+msgstr "Изменить"
+
+#: .\django_htmx\templates\partial_book_detail.html:49
+msgid "Are you sure you wish to delete this book?"
+msgstr "Вы уверены, что хотите удалить эту книгу?"
+
+#: .\django_htmx\templates\partial_book_detail.html:50
+msgid "Delete"
+msgstr "Удалить"
+
+#: .\django_htmx\templates\partial_book_update_form.html:40
+msgid "Save"
+msgstr "Сохранить"
+
+#: .\django_htmx\templates\partial_book_update_form.html:47
+msgid "Cancel"
+msgstr "Отменить"
+
+#: .\django_htmx\templates\partial_create_book_form.html:23
+msgid "Add book"
+msgstr "Добавить"
